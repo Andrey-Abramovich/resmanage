@@ -1,6 +1,8 @@
 # resmanage
 РАБОЧАЯ ВЕТКА MAIN
+
 Команды
+
 установка Django/ создание проекта
 
     1.pip install django
@@ -25,11 +27,19 @@
 >>settings.py
 
 INSTALLED_APPS [
+
     'rest_framework',
+    
     'apitest',
+    
     'phone_field'
+    
 ]
+
 Доп. Библиотеки
+
 *поле с номером телефона
+
 pip install django-phone-field
+
 pip install djangorestframework
