@@ -16,6 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from apitest.views import *
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('v1/users/', PersonListApiView.as_view()),
+    path('v1/auth/register/', PersonCreateApiView.as_view()),
+    path('v1/auth/login/', PersonLoginApiView.as_view())
 ]
