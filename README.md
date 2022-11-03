@@ -1,22 +1,23 @@
 # resmanage
+РАБОЧАЯ ВЕТКА MAIN
 Команды
 установка Django/ создание проекта
 
-    pip install django
-    django-admin startproject res_manage
+    1.pip install django
+    2.django-admin startproject res_manage
 
-    cd res_manage
+    3.cd res_manage
 
-    python manage.py startapp apitest
+    4.python manage.py startapp apitest
 
-Git
+ Git
 
-    инициализируем проект: git init
-    создам файл .gitignore и заполняем его
+    5.инициализируем проект: git init
+    6.создам файл .gitignore и заполняем его
 
-    файл с зависимостями: pip freeze > requirements.txt
-    делаем миграции: python manage.py migrate
-    создаем admin: python manage.py createsuperuser
+    7.файл с зависимостями: pip freeze > requirements.txt
+    8.делаем миграции: python manage.py migrate
+    9.создаем admin: python manage.py createsuperuser
 
  Запускаем проект: python manage.py runserver
  
